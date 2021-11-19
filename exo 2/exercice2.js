@@ -1,6 +1,7 @@
 /* Modifier le code ci dessous */
+let bouton = document.getElementById("bouton")
+bouton.addEventListener('mouseover' , function (){
 
-document.getElementById("bouton").("", function(){
     alert('event déclenché')
 });
 

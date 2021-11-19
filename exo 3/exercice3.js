@@ -1,6 +1,7 @@
 /* Modifier le code ci dessous */
+let dbClik = document.getElementById("bouton")
+dbClik.addEventListener('dblclick' , function (){
 
-document.getElementById("bouton").("", function(){
     alert('event déclenché')
 });
 
